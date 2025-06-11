@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <center><h1>Formulario de Contacto</h1></center> <br>     
+
+    <fieldset><legend  style="font-family: Arial, sans-serif;"> Datos Personales:</legend><br>
+        
+       <form action=""></form>
+    <form name="formulario" method="get" action="/send/">
+        <label>Nombres</label> 
+            <input name = "nombre" type="" required><br> <br> 
+        <label >Apellidos</label> <br>
+            <input name="apellido" type="" required> <br><br>
+        <label>cèdula</label> <br> 
+             <input name="Cedula" type=""required> <br> <br>
+        <label>Fecha de nacimiento:</label><br>
+              <input name="fecha nacimiento" type="date"  > <br>  <br>
+        <label>E-mail</label> <br>
+            <input  name="E-mail" type="email" ><br><br>
+        <label >Telefono</label> <br>
+            <input name="Telefono" type="number " ><br> <br>
+
+            <label>Seleccione el Departamento</label>
+    <select name=" Departamento" >
+        
+        <option value="Cundinamarca">Cundinamarca</option>  
+        <option value="Antioquia" selected>Antioquia</option> 
+        <option value="Valle del Cauca">Valle del Cauca</option>  
+        <option value="Atlantico">Atlantico</option> 
+        <option value="Santander">Santander</option>
+        <option value="Bolivar">Bolivar</option>
+
+    </select> <br><br>       
+
+        <label >seleccione la ciudad</label>        
+    <select name="ciudad" >
+        
+        <option value="Bogota">Bogota</option>  
+        <option value="Medellin" selected>Medellin</option> 
+        <option value="Cali">Cali</option>  
+        <option value="Barranquilla">Barranquilla</option> 
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Cartagena">Cartagena</option>
+        
+    </select> <br>  <br>
+              
+        <label> sexo</label> <br>
+        <label >Hombre</label><input name="sexo" type="radio" value="H">
+        <label >Mujer</label><input name="sexo" type="radio" value="M"><br><br>
+        <label >Gustos</label><br> 
+        <label >Música</label> <input name="Musica" type="checkbox">
+        <label >fotos</label> <input name="fotos" type="checkbox"> 
+        <label >cine</label> <input name="cine" type="checkbox"> <br> <br>
+        <label>Cuéntanos</label> <br>
+            <textarea name="comentario" rows="10" cols="30"></textarea>
+            <button type="reset">borrar </button>
+            <button type="submit">enviar </button>
+     </form>
+    </fieldset><br><br> <hr>
+            
+</body>
+</html> 
+
+
+
+
+<!--formulario aplicando placeholder-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Información Básica</legend>
+
+    <form >
+        <label for=""> primer Nombre</label>
+        <input type=""placeholder="ejemplo juan"><br><br>
+         <label for=""> segundo Nombre</label>
+        
+        <input type=""placeholder="escribe tu segundo nombre"><br><br>
+
+        <label for="">apellido</label>
+        <input type=""placeholder="escribe tu apellido"><br>
+    </form>
+    </fieldset><br>
+
+    <fieldset>
+         <legend>informacion de contacto</legend>
+    <form >
+        <label for="E-mail">correo</label>
+        <input type=""placeholder="escribe E-mail"> <br><br>
+        <button type="reset">borrar </button>
+            <button type="submit">enviar </button>
+
+    </form>
+</fieldset>
